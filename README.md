@@ -1,4 +1,4 @@
-# up-north-template
+# up-north-template -> mountaintechnologiesllc.com
 
 - Follow how to set up Angular website in README in template-app.
 - Edit template-app/src/assets/data.json to customize your website.
@@ -6,6 +6,6 @@
 
 ## Working with repo
 ### Deploy changes to GitHub Pages
-1. ```ng build --base-href /up-north-template --deploy-url /up-north-template/```
+1. ```ng build --base-href /com.mountaintechnologiesllc --deploy-url /com.mountaintechnologiesllc/```
 1. Copy contents and replace contents in ```./docs```.
 1. Push changes.
