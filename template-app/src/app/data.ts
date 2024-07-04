@@ -4,6 +4,7 @@ export type Data = {
   pageHome: PageHome;
   pages: Page[];
   phoneNumber: string;
+  phoneTel: string;
   socialLink: string;
   socialName: string;
   socialUsername: string;
@@ -35,6 +36,7 @@ export type Section = {
 export type SectionContact = {
   email: string;
   phoneNumber: string;
+  phoneTel: string;
   socialLink: string;
   socialName: string;
   socialUsername: string;

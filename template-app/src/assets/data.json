@@ -120,6 +120,7 @@
           "sectionContact": {
             "email": "info@mountaintechnologiesllc.com",
             "phoneNumber": "(952) 239-4799",
+            "phoneTel": "+19522394799",
             "socialLink": "https://www.linkedin.com/company/mountain-technologies",
             "socialName": "LinkedIn",
             "socialUsername": "Mountain Technologies LLC",
@@ -131,6 +132,7 @@
     }
   ],
   "phoneNumber": "(952) 239-4799",
+  "phoneTel": "+19522394799",
   "socialLink": "https://www.linkedin.com/company/mountain-technologies",
   "socialName": "LinkedIn",
   "socialUsername": "Mountain Technologies LLC",
