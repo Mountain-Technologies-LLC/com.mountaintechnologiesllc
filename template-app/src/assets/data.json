@@ -1,146 +1,111 @@
 {
-  "companyName": "Template Website",
-  "email": "email@company.com",
-  "linkFacebook": "https://www.facebook.com",
+  "companyName": "Mountain Technologies LLC",
+  "email": "info@mountaintechnologiesllc.com",
   "pageHome": {
     "sections": [
       {
-        "sectionHeroWithFacebookAndContact": {
-          "linkFacebook": "https://www.facebook.com",
-          "subText": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "text": "Your one stop website maker!"
+        "sectionHeroWithSocialAndContact": {
+          "socialLink": "https://www.linkedin.com/company/mountain-technologies",
+          "socialName": "LinkedIn",
+          "socialUsername": "Mountain Technologies LLC",
+          "subText": "We work closely with our clients at all stages of development, aligning with their goals. You can expect your software to be delivered on time, within budget, and done right.",
+          "text": "Mountain Technologies LLC"
         }
       },
       {
         "sectionImage": {
-          "imageFileName": "/images/logo.png",
+          "imageFileName": "/images/full-stack-wide.png",
           "imageFirst": true,
-          "subText": "Porttitor leo a diam sollicitudin tempor id eu nisl. Cursus in hac habitasse platea dictumst quisque sagittis purus. Mi tempus imperdiet nulla malesuada pellentesque elit. Nullam eget felis eget nunc lobortis mattis aliquam faucibus purus. Eget magna fermentum iaculis eu non. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Molestie a iaculis at erat pellentesque. Tincidunt dui ut ornare lectus sit amet est. Elit pellentesque habitant morbi tristique senectus et netus et.",
-          "text": "Eget est lorem ipsum"
+          "subText": "Are you looking to elevate your applications? We’re here to assist. Ask us about solving your most intricate workflow challenges. Our expertise lies in understanding expert systems while modernizing your software stack with industry standards.",
+          "text": "Full Stack Development"
         }
       },
       {
         "sectionImage": {
-          "imageFileName": "/images/logo.png",
+          "imageFileName": "/images/02.png",
           "imageFirst": false,
-          "subText": "Eu sem integer vitae justo eget magna.",
-          "text": "Eros in cursus turpis"
+          "subText": "Building custom software is what we do. We aim to focus on design principles such as SOLID, the heuristics of your business rules, and identify the right resources for the job to make sure we deliver with excellence.",
+          "text": "Beyond the Cookie Cutter Solutions"
         }
       },
       {
         "sectionImage": {
-          "imageFileName": "/images/logo.png",
+          "imageFileName": "/images/05.jpg",
           "imageFirst": true,
-          "subText": "At ultrices mi tempus imperdiet.",
-          "text": "Z"
-        }
-      },
-      {
-        "sectionGrid": {
-          "sectionGridCols": [
-            {
-              "subText": "Netus et malesuada fames ac turpis egestas maecenas pharetra convallis.",
-              "text": "One"
-            },
-            {
-              "subText": "Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget.",
-              "text": "Two"
-            },
-            {
-              "subText": "Nunc consequat interdum varius sit amet mattis.",
-              "text": "Three"
-            }
-          ]
+          "subText": "Do you have a video idea? We are here to make awesome media for your needs.",
+          "text": "Video Editing"
         }
       }
     ]
   },
   "pages": [
     {
-      "link": "page-offer",
-      "name": "Page Offer",
-      "sections": [
-        {
-          "sectionHeroCentered": {
-            "subText": "Tincidunt augue interdum velit euismod. Fames ac turpis egestas sed tempus urna et. Cras fermentum odio eu feugiat pretium nibh ipsum. Ut venenatis tellus in metus vulputate eu scelerisque felis. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Vitae aliquet nec ullamcorper sit amet risus.",
-            "text": "Best Deals in Town"
-          }
-        },
-        {
-          "offerSection": {
-            "offers": [
-              {
-                "buttonText": "Start here",
-                "guarantees": [
-                  {
-                    "text": "Eget nulla facilisi etiam dignissim."
-                  },
-                  {
-                    "text": "Aliquam eleifend mi in nulla posuere."
-                  },
-                  {
-                    "bold": true,
-                    "text": "Maecenas volutpat blandit aliquam etiam."
-                  }
-                ],
-                "moreGuarantees": [
-                  {
-                    "text": "Morbi tempus iaculis urna id."
-                  }
-                ],
-                "price": "$100",
-                "subPrice": "/year",
-                "subText": "Volutpat maecenas volutpat blandit aliquam etiam erat. Risus sed vulputate odio ut enim blandit.",
-                "text": "Offer Level Basic"
-              },
-              {
-                "subText": "Nec dui nunc mattis enim ut tellus. Amet consectetur adipiscing elit ut aliquam purus sit amet luctus.",
-                "text": "Offer Level Professional",
-                "isSkeleton": true,
-                "subOfferText": "*Disclaimer"
-              },
-              {
-                "buttonText": "Contact sales",
-                "subText": "Diam vel quam elementum pulvinar etiam non quam lacus suspendisse.",
-                "text": "Offer Level Enterprise",
-                "price": "Custom",
-                "priceText": "Purus sit amet luctus venenatis lectus magna. Nisl purus in mollis nunc sed.",
-                "guarantees": [
-                  {
-                    "text": "Everything in Offer Level Basic."
-                  }
-                ],
-                "subOfferLink": "",
-                "subOfferText": "Our Certifications"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Dropdown 1",
+      "name": "Services",
       "pages": [
         {
-          "name": "Page A",
-          "link": "page-a",
+          "link": "up-north-websites",
+          "name": "Up North Websites",
           "sections": [
             {
               "sectionHeroCentered": {
-                "subText": "Tincidunt augue interdum velit euismod in. Turpis massa sed elementum tempus egestas.",
-                "text": "Page A"
+                "subText": "We work with you to gather website information (service descriptions, contact information, pictures, and more) to increase increase your organization's credibility and showcase your products to prospective customers.",
+                "text": "Up North Websites"
               }
-            }
-          ]
-        },
-        {
-          "name": "Page B",
-          "link": "page-b",
-          "sections": [
+            },
             {
-              "sectionHeroCentered": {
-                "subText": "Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Egestas egestas fringilla phasellus faucibus scelerisque eleifend.",
-                "text": "Page B"
+              "offerSection": {
+                "offers": [
+                  {
+                    "buttonMailTo": "info@mountaintechnologiesllc.com?subject=ATTN: Website needed",
+                    "buttonText": "Contact sales",
+                    "guarantees": [
+                      {
+                        "text": "Website Hosting on Amazon Web Services."
+                      },
+                      {
+                        "text": "Access to source code."
+                      },
+                      {
+                        "bold": true,
+                        "text": "Satisfaction guaranteed, or your money back."
+                      }
+                    ],
+                    "moreGuarantees": [
+                      {
+                        "text": "Price is good for 5 years ($100)."
+                      },
+                      {
+                        "text": "All code is open source (MIT License)."
+                      },
+                      {
+                        "text": "Yearly $15 credit for registration and renewals."
+                      },
+                      {
+                        "text": "$15 credit for domain transfers."
+                      }
+                    ],
+                    "price": "$100",
+                    "subPrice": "/year",
+                    "subText": "The Just Good Enough website service.",
+                    "text": "Just Good Enough"
+                  },
+                  {
+                    "badge": "Currently planning",
+                    "subText": "The Pretty Good website service (but not too good).",
+                    "text": "Pretty Good",
+                    "isSkeleton": true,
+                    "subOfferMailTo": "info@mountaintechnologiesllc.com?subject=ATTN: Join Pretty Good waiting list",
+                    "subOfferText": "Join waiting list"
+                  },
+                  {
+                    "buttonMailTo": "info@mountaintechnologiesllc.com?subject=ATTN: Uffda! custom work",
+                    "buttonText": "Contact sales",
+                    "subText": "The Uffda! website service.",
+                    "text": "Uffda!",
+                    "price": "Custom",
+                    "priceText": "Do your needs exceed what we currently provide? Look here to start a conversation."
+                  }
+                ]
               }
             }
           ]
@@ -153,51 +118,22 @@
       "sections": [
         {
           "sectionContact": {
-            "email": "email@company.com",
-            "linkFacebook": "https://www.facebook.com",
-            "phoneNumber": "(###) ###-####",
-            "subText": "Call, email, or send us a message on Facebook with your questions and feedback.",
-            "text": "Contact Us",
-            "usernameFacebook": "@company"
+            "email": "info@mountaintechnologiesllc.com",
+            "phoneNumber": "(952) 239-4799",
+            "socialLink": "https://www.linkedin.com/company/mountain-technologies",
+            "socialName": "LinkedIn",
+            "socialUsername": "Mountain Technologies LLC",
+            "subText": "Call, email, or send us a message on LinkedIn with your questions and feedback.",
+            "text": "Contact Us"
           }
         }
       ]
     }
   ],
-  "phoneNumber": "(###) ###-####",
-  "tagline": "Just make it.",
-  "theme-note": "Remove the -[theme] below to change the theme of the template. And also add -[theme] to the current.",
-  "theme": "light",
-  "theme-dark": "dark",
-  "theme-cupcake": "cupcake",
-  "theme-bumblebee": "bumblebee",
-  "theme-emerald": "emerald",
-  "theme-corporate": "corporate",
-  "theme-synthwave": "synthwave",
-  "theme-retro": "retro",
-  "theme-cyberpunk": "cyberpunk",
-  "theme-valentine": "valentine",
-  "theme-halloween": "halloween",
-  "theme-garden": "garden",
-  "theme-forest": "forest",
-  "theme-aqua": "aqua",
-  "theme-lofi": "lofi",
-  "theme-pastel": "pastel",
-  "theme-fantasy": "fantasy",
-  "theme-wireframe": "wireframe",
-  "theme-black": "black",
-  "theme-luxury": "luxury",
-  "theme-dracula": "dracula",
-  "theme-cmyk": "cmyk",
-  "theme-autumn": "autumn",
-  "theme-business": "business",
-  "theme-acid": "acid",
-  "theme-lemonade": "lemonade",
-  "theme-night": "night",
-  "theme-coffee": "coffee",
-  "theme-winter": "winter",
-  "theme-dim": "dim",
-  "theme-nord": "nord",
-  "theme-sunset": "sunset",
-  "usernameFacebook": "@company"
+  "phoneNumber": "(952) 239-4799",
+  "socialLink": "https://www.linkedin.com/company/mountain-technologies",
+  "socialName": "LinkedIn",
+  "socialUsername": "Mountain Technologies LLC",
+  "tagline": "Software services for your needs",
+  "theme": "nord"
 }

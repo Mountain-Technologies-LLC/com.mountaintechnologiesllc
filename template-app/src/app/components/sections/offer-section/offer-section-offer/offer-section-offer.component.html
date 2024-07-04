@@ -7,12 +7,12 @@
     'xl:rounded-tl-3xl xl:rounded-tr-3xl' : isFirst != true && isLast != true,
     'xl:border-s-0 xl:rounded-r-3xl': isLast == true,
     'xl:mt-8': isFirst == true || isLast == true,
-    'opacity-70 text-base-content' : offer.isSkeleton == true,
   }">
-    <div class="card-body">
-      <h3 class="flex-none card-title">
-        {{ offer.text }}
-      </h3>
+    <div class="card-body" [ngClass]="{'opacity-50 text-base-content': offer.isSkeleton}">
+      <div class="flex">
+        <h3 class="card-title grow">{{ offer.text }}</h3>
+        <div *ngIf="offer.badge != null" class="badge badge-md bg-primary/10 text-primary">{{ offer.badge }}</div>
+      </div>
       <p class="flex-none text-base-content/70">
         {{ offer.subText }}
       </p>
@@ -75,8 +75,15 @@
         <span class="skeleton h-5 w-full"></span>
       </p>
 
+      <div class="flex-auto"></div>
+
       <div *ngIf="offer.buttonText != null" class="card-actions justify-center">
-        <button class="btn btn-block btn-primary btn-outline mt-8">{{ offer.buttonText }}</button>
+        <button *ngIf="offer.buttonLink != null" routerLink="{{offer.buttonLink}}" class="btn btn-block btn-primary btn-outline mt-8">
+          {{ offer.buttonText }}
+        </button>
+        <a *ngIf="offer.buttonMailTo != null" href="mailto: {{offer.buttonMailTo}}" class="btn btn-block btn-primary btn-outline mt-8">
+          {{ offer.buttonText }}
+        </a>
       </div>
 
       <div *ngIf="offer.isSkeleton == true && offer.buttonText == null" class="card-actions justify-center">
@@ -84,8 +91,15 @@
       </div>
     </div>
   </div>
-  <div class="h-6 mt-3 text-center">
-    <a *ngIf="offer.subOfferLink != null" class="link link-primary link-hover">{{ offer.subOfferText }}</a>
-    <div *ngIf="offer.subOfferLink == null">{{ offer.subOfferText }}</div>
+  <div class="h-6 mt-3 text-center font-bold">
+    <a *ngIf="offer.subOfferLink != null" class="link link-primary link-hover" routerLink="{{offer.subOfferLink}}">
+      {{ offer.subOfferText }}
+    </a>
+    <a *ngIf="offer.subOfferMailTo != null" class="link link-primary link-hover" href="mailto: {{offer.subOfferMailTo}}">
+      {{ offer.subOfferText }}
+    </a>
+    <div *ngIf="offer.subOfferLink == null && offer.subOfferMailTo == null">
+      {{ offer.subOfferText }}
+    </div>
   </div>
 </div>
