@@ -1,12 +1,12 @@
 
 <div class="flex flex-col flex-auto w-full">
-  <div class="flex-auto card bg-base-100 border rounded-3xl border-neutral xl:rounded-none"
+  <div class="flex-auto card bg-base-100 border rounded-3xl border-neutral lg:rounded-none"
   [ngClass]="
   {
-    'xl:border-e-0 xl:rounded-l-3xl': isFirst == true,
-    'xl:rounded-tl-3xl xl:rounded-tr-3xl' : isFirst != true && isLast != true,
-    'xl:border-s-0 xl:rounded-r-3xl': isLast == true,
-    'xl:mt-8': isFirst == true || isLast == true,
+    'lg:border-e-0 lg:rounded-l-3xl': isFirst == true,
+    'lg:rounded-tl-3xl lg:rounded-tr-3xl' : isFirst != true && isLast != true,
+    'lg:border-s-0 lg:rounded-r-3xl': isLast == true,
+    'lg:mt-8': isFirst == true || isLast == true,
   }">
     <div class="card-body" [ngClass]="{'opacity-50 text-base-content': offer.isSkeleton}">
       <div class="flex">

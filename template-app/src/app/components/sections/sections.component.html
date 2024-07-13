@@ -1,41 +1,47 @@
-<div *ngFor="let section of sections" class="pb-7 sm:pb-12">
-  <div *ngIf="section.sectionContact != null">
+<div *ngFor="let section of sections">
+  <div *ngIf="section.imageHeroSection != null" class="py-1">
+    <app-image-hero-section
+      [imageHeroSection]="section.imageHeroSection">
+    </app-image-hero-section>
+  </div>
+
+  <div *ngIf="section.sectionContact != null" [class]="defaultClasses">
     <app-section-contact
       [sectionContact]="section.sectionContact">
     </app-section-contact>
   </div>
 
-  <div *ngIf="section.sectionGrid != null">
+  <div *ngIf="section.sectionGrid != null" [class]="defaultClasses">
     <app-section-grid
       [sectionGrid]="section.sectionGrid">
     </app-section-grid>
   </div>
 
-  <div *ngIf="section.sectionHeroCentered != null">
+  <div *ngIf="section.sectionHeroCentered != null" [class]="defaultClasses">
     <app-section-hero-centered
       [sectionHeroCentered]="section.sectionHeroCentered">
     </app-section-hero-centered>
   </div>
 
-  <div *ngIf="section.sectionHeroWithSocialAndContact != null">
+  <div *ngIf="section.sectionHeroWithSocialAndContact != null" [class]="defaultClasses">
     <app-section-hero-with-social-and-contact
       [sectionHeroWithSocialAndContact]="section.sectionHeroWithSocialAndContact">
     </app-section-hero-with-social-and-contact>
   </div>
 
-  <div *ngIf="section.sectionImage != null">
+  <div *ngIf="section.sectionImage != null" [class]="defaultClasses">
     <app-section-image
       [sectionImage]="section.sectionImage">
     </app-section-image>
   </div>
 
-  <div *ngIf="section.offerSection != null">
+  <div *ngIf="section.offerSection != null" [class]="defaultClasses">
     <app-offer-section
       [offerSection]="section.offerSection">
     </app-offer-section>
   </div>
 
-  <div *ngIf="section.sectionText != null">
+  <div *ngIf="section.sectionText != null" [class]="defaultClasses">
     <app-section-text
       [sectionText]="section.sectionText">
     </app-section-text>

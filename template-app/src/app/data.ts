@@ -24,6 +24,7 @@ export type Page = {
 }
 
 export type Section = {
+  imageHeroSection?: ImageHeroSection | null;
   sectionContact?: SectionContact | null;
   sectionGrid?: SectionGrid | null;
   sectionHeroCentered?: SectionHeroCentered | null;
@@ -31,6 +32,10 @@ export type Section = {
   sectionImage?: SectionImage | null;
   offerSection?: OfferSection | null;
   sectionText?: SectionText | null;
+}
+
+export type ImageHeroSection = {
+
 }
 
 export type SectionContact = {

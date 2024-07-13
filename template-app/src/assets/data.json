@@ -60,10 +60,10 @@
                     "buttonText": "Contact sales",
                     "guarantees": [
                       {
-                        "text": "Website Hosting on Amazon Web Services."
+                        "text": "Website Hosting."
                       },
                       {
-                        "text": "Access to source code."
+                        "text": "Access to website code."
                       },
                       {
                         "bold": true,
@@ -84,18 +84,19 @@
                         "text": "$15 credit for domain transfers."
                       }
                     ],
-                    "price": "$100",
+                    "price": "$100*",
                     "subPrice": "/year",
                     "subText": "The Just Good Enough website service.",
+                    "subOfferText": "*Only 5 slots available for this offer.",
                     "text": "Just Good Enough"
                   },
                   {
                     "badge": "Currently planning",
                     "subText": "The Pretty Good website service (but not too good).",
-                    "text": "Pretty Good",
                     "isSkeleton": true,
                     "subOfferMailTo": "info@mountaintechnologiesllc.com?subject=ATTN: Join Pretty Good waiting list",
-                    "subOfferText": "Join waiting list"
+                    "subOfferText": "Join waiting list",
+                    "text": "Pretty Good"
                   },
                   {
                     "buttonMailTo": "info@mountaintechnologiesllc.com?subject=ATTN: Uffda! custom work",
@@ -116,6 +117,11 @@
       "link": "contact",
       "name": "Contact",
       "sections": [
+        {
+          "imageHeroSection": {
+
+          }
+        },
         {
           "sectionContact": {
             "email": "info@mountaintechnologiesllc.com",

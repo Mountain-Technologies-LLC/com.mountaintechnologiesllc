@@ -8,6 +8,7 @@ import { SectionImageComponent } from "./section-image/section-image.component";
 import { SectionGridComponent } from "./section-grid/section-grid.component";
 import { SectionTextComponent } from "./section-text/section-text.component";
 import { OfferSectionComponent } from "./offer-section/offer-section.component";
+import { ImageHeroSectionComponent } from './image-sections/image-hero-section/image-hero-section.component';
 
 @Component({
     selector: 'app-sections',
@@ -17,6 +18,7 @@ import { OfferSectionComponent } from "./offer-section/offer-section.component";
     imports: [
       NgFor,
       NgIf,
+      ImageHeroSectionComponent,
       SectionContactComponent,
       SectionGridComponent,
       SectionHeroCenteredComponent,
@@ -29,4 +31,7 @@ import { OfferSectionComponent } from "./offer-section/offer-section.component";
 export class SectionsComponent {
   @Input()
   sections: Section[] = [];
+
+  // pb-7 sm:pb-12 sm:mx-6
+  readonly defaultClasses = "container mx-auto px-1 sm:px-4 md:px-6 lg:px-8";
 }
