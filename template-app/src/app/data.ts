@@ -24,21 +24,17 @@ export type Page = {
 }
 
 export type Section = {
+  contactSection?: ContactSection | null;
+  gridSection?: GridSection | null;
   imageHeroSection?: ImageHeroSection | null;
-  sectionContact?: SectionContact | null;
-  sectionGrid?: SectionGrid | null;
-  sectionHeroCentered?: SectionHeroCentered | null;
-  sectionHeroWithSocialAndContact?: SectionHeroWithSocialAndContact | null;
-  sectionImage?: SectionImage | null;
+  imageSection?: ImageSection | null;
+  mainCenteredSection?: MainCenteredSection | null;
+  mainSocialAndContactSection?: MainSocialAndContactSection | null;
   offerSection?: OfferSection | null;
-  sectionText?: SectionText | null;
+  textSection?: TextSection | null;
 }
 
-export type ImageHeroSection = {
-
-}
-
-export type SectionContact = {
+export type ContactSection = {
   email: string;
   phoneNumber: string;
   phoneTel: string;
@@ -49,33 +45,37 @@ export type SectionContact = {
   text: string;
 }
 
-export type SectionGrid = {
-  sectionGridCols: SectionGridCol[];
+export type GridSection = {
+  gridColsSection: GridColSection[];
 }
 
-export type SectionGridCol = {
+export type GridColSection = {
   subText: string;
   text: string;
 }
 
-export type SectionHeroCentered = {
+export type ImageHeroSection = {
+
+}
+
+export type ImageSection = {
+  imageFileName: string;
+  imageFirst?: boolean | null;
+  subText?: string | null;
+  text?: string | null;
+}
+
+export type MainCenteredSection = {
   subText: string;
   text: string;
 }
 
-export type SectionHeroWithSocialAndContact = {
+export type MainSocialAndContactSection = {
   socialLink: string;
   socialName: string;
   socialUsername: string;
   subText: string;
   text: string;
-}
-
-export type SectionImage = {
-  imageFileName: string;
-  imageFirst?: boolean | null;
-  subText?: string | null;
-  text?: string | null;
 }
 
 export type OfferSection = {
@@ -105,7 +105,7 @@ export type OfferSectionOfferGuarantees = {
   text: string;
 }
 
-export type SectionText = {
+export type TextSection = {
   subText: string;
   text: string;
 }

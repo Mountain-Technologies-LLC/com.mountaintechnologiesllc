@@ -4,7 +4,7 @@
   "pageHome": {
     "sections": [
       {
-        "sectionHeroWithSocialAndContact": {
+        "mainSocialAndContactSection": {
           "socialLink": "https://www.linkedin.com/company/mountain-technologies",
           "socialName": "LinkedIn",
           "socialUsername": "Mountain Technologies LLC",
@@ -13,7 +13,7 @@
         }
       },
       {
-        "sectionImage": {
+        "imageSection": {
           "imageFileName": "/images/full-stack-wide.png",
           "imageFirst": true,
           "subText": "Are you looking to elevate your applications? We’re here to assist. Ask us about solving your most intricate workflow challenges. Our expertise lies in understanding expert systems while modernizing your software stack with industry standards.",
@@ -21,7 +21,7 @@
         }
       },
       {
-        "sectionImage": {
+        "imageSection": {
           "imageFileName": "/images/02.png",
           "imageFirst": false,
           "subText": "Building custom software is what we do. We aim to focus on design principles such as SOLID, the heuristics of your business rules, and identify the right resources for the job to make sure we deliver with excellence.",
@@ -29,7 +29,7 @@
         }
       },
       {
-        "sectionImage": {
+        "imageSection": {
           "imageFileName": "/images/05.jpg",
           "imageFirst": true,
           "subText": "Do you have a video idea? We are here to make awesome media for your needs.",
@@ -47,7 +47,7 @@
           "name": "Up North Websites",
           "sections": [
             {
-              "sectionHeroCentered": {
+              "mainCenteredSection": {
                 "subText": "We work with you to gather website information (service descriptions, contact information, pictures, and more) to increase increase your organization's credibility and showcase your products to prospective customers.",
                 "text": "Up North Websites"
               }
@@ -123,7 +123,7 @@
           }
         },
         {
-          "sectionContact": {
+          "contactSection": {
             "email": "info@mountaintechnologiesllc.com",
             "phoneNumber": "(952) 239-4799",
             "phoneTel": "+19522394799",
