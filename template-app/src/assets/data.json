@@ -56,6 +56,7 @@
               "offerSection": {
                 "offers": [
                   {
+                    "badge": "Best Value",
                     "buttonMailTo": "info@mountaintechnologiesllc.com?subject=ATTN: Website needed",
                     "buttonText": "Contact sales",
                     "guarantees": [
@@ -91,11 +92,21 @@
                     "text": "Just Good Enough"
                   },
                   {
-                    "badge": "Currently planning",
-                    "subText": "The Pretty Good website service (but not too good).",
-                    "isSkeleton": true,
+                    "buttonMailTo": "info@mountaintechnologiesllc.com?subject=ATTN: Pretty good website needed",
+                    "buttonText": "Contact sales",
+                    "guarantees": [
+                      {
+                        "text": "Everything in the Just Good Enough website service."
+                      },
+                      {
+                        "text": "Private Label/White Label."
+                      }
+                    ],
+                    "price": "$200",
+                    "subPrice": "/year",
+                    "subText": "The Pretty Good website service.",
                     "subOfferMailTo": "info@mountaintechnologiesllc.com?subject=ATTN: Join Pretty Good waiting list",
-                    "subOfferText": "Join waiting list",
+                    "subOfferText": "Join waiting list for extra features.",
                     "text": "Pretty Good"
                   },
                   {
